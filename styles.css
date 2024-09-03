@@ -1,0 +1,36 @@
+*   {
+    background-color: rgb(253, 252, 240);   
+    text-align: center;
+}
+
+.categorias {
+    color: palevioletred;
+}
+img{
+    width: 14cm;
+    float: center;
+}
+
+.series {
+    float: right;
+}
+
+.peliculas  {
+float:left;
+}
+
+.titulos {
+    color: palevioletred;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+#final  {
+    text-decoration: underline;
+    color:seagreen;
+    font-size: larger;
+}
+
+#ig {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
