@@ -34,3 +34,34 @@ float:left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
 }
+
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .peliculas, .series {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Celulares */
+@media only screen and (max-width: 767px) {
+    body {
+        margin: 0;
+        width: 100vw;
+        overflow-x: hidden; /* Evita el desplazamiento horizontal */
+    }
+    img {
+        max-width: 100%; /* Ajusta la imagen al ancho del contenedor */
+        margin: 10px; /* Añade un margen vertical para espaciado */
+    }
+    #final {
+        font-size: small; /* Ajusta el tamaño del texto */
+        margin: 15px; /* Añade márgenes verticales para espaciado */
+        margin: 10px;
+    }
+
+    #ig {
+        font-size: x-small; /* Ajusta el tamaño del texto */
+        margin: 10px; /* Añade márgenes verticales para espaciado */
+    }
+}
